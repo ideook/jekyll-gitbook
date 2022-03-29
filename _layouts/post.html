@@ -30,6 +30,13 @@
                             <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
                     </h1>
+                    <!-- Title -->
+                    <h2>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        {% if page.date %}
+                           { page.date | escape }
+                        {% endif %}
+                    </h2>
                 </div>
 
                 <div class="body-inner">
