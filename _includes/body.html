@@ -10,6 +10,10 @@
                         <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                     {% endif %}
 
+                    {% if page.date %}
+                        <h2>{{ page.date | escape }}</h1>
+                    {% endif %}
+
                     {{ content }}
                 </section>
             </div>
