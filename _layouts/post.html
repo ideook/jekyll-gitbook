@@ -34,7 +34,9 @@
                     <h2>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         {% if page.date %}
-                           { page.date }
+                            <a href="." >{{ page.date | escape }}</a>
+                        {% else %}
+                            <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
                     </h2>
                 </div>
