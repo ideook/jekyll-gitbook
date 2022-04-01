@@ -6,4 +6,4 @@ category: Jekyll
 layout: post
 ---
 
-This is an about page.
+[Github](https://github.com/ideook)
